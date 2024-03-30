@@ -18,4 +18,8 @@ pipeline {
     maven 'DHT_MVN'
     jdk 'DHT_SENSE'
   }
+  environment {
+    maven = '\'DHT_MVN\' '
+    jdk = '\'DHT_SENSE\''
+  }
 }
