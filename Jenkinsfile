@@ -21,7 +21,7 @@ pipeline {
 
     stage('wait') {
       steps {
-        sh 'git bisect bad 198644632661c67b6c32f59e9047c11a70685e15'
+        sh 'git bisect bad 198644632661c67b6c32f59e9047c11a70685e15'
       }
     }
 
